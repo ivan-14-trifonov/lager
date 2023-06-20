@@ -7,7 +7,7 @@ export const Description = () => {
 			<section className="description__content">
 				{/*<div className="description__circle"></div>*/}
 				<div className="description__title">
-					<h2>Путь к жизни</h2>
+					<h2>Путь к жизни</h2>
 				</div>
 				<div className="description__announce">
 					<div className="description__Bible_Quote">
