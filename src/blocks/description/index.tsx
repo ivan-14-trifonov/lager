@@ -43,6 +43,9 @@ export const Description = () => {
 							<li className="description__li">а также братья гости: Сергей Зинченко и Михаил Голубин.</li>
 						</ul>
 					</div>
+					<div className="description__text">
+						<p><b>Ответственный за лагерь: Шкаровский Георгий, <phone>+7 920 275 1508</phone>.</b></p>
+					</div>
 					<div className="description__price">
 						<p><b>С собой необходимо привезти 2300 ₽.</b></p>
 					</div>
