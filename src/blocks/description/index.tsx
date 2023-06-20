@@ -44,7 +44,7 @@ export const Description = () => {
 						</ul>
 					</div>
 					<div className="description__text">
-						<p><b>Ответственный за лагерь: Шкаровский Георгий, <a class="link" rel="noreferrer">+7 920 275 1508</a>.</b></p>
+						<p><b>Ответственный за лагерь: Шкаровский Георгий, <a className="link" rel="noreferrer">+7 920 275 1508</a>.</b></p>
 					</div>
 					<div className="description__price">
 						<p><b>С собой необходимо привезти 2300 ₽.</b></p>
