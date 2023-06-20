@@ -37,9 +37,9 @@ export const Coordinates = () => {
 				title="Карта"
 				rel="noreferrer"
 				src="https://yandex.ru/map-widget/v1/?um=constructor%3A0527761ad143fd73b15e27a3e83db3890f6f61933be19f3b5c8a6fc116c7f5f0&amp;source=constructor"
-				width="500"
-				height="400"
-				frameborder="0"
+				// width="500"
+				// height="400"
+				// frameborder="0"
 				></iframe>
 {/*      			<iframe
       			    className="map"
