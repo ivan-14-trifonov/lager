@@ -44,7 +44,7 @@ export const Description = () => {
 						</ul>
 					</div>
 					<div className="description__price">
-						<p>С собой необходимо привезти 2300 ₽.</p>
+						<p><b>С собой необходимо привезти 2300 ₽.</b></p>
 					</div>
 				</div>
 			</section>

@@ -18,7 +18,7 @@ export const Main = () => {
 						<p>📍 Новомосковск</p>
 					</div>
 					<div className="main__border">
-						<p>🗓 29.06.23 – 03.07.23</p>
+						<p>🗓 29.06 – 03.07</p>
 					</div>
 				</div>
 			</section>
