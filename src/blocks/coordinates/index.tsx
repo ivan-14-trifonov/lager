@@ -15,22 +15,25 @@ export const Coordinates = () => {
 				<a
 					href="https://yandex.ru/maps/?ll=38.384608%2C53.866330&mode=search&sll=38.421775%2C53.916805&text=53.916805%2C38.421775&z=10"
 					target="_blank"
-					className="link">
+					className="link"
+					rel="noreferrer">
 				Место в Яндекс Картах ➡️
 				</a>
 			</div>
 			<div className="map1">
-				<a className="map2" href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps">
+				<a className="map2" href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" rel="noreferrer">
 						Яндекс Карты
 				</a>
       			<a
       			    className="map3"
+      			    rel="noreferrer"
       				href="https://yandex.ru/maps/?ll=38.384608%2C53.866330&mode=search&sll=38.421775%2C53.916805&text=53.916805%2C38.421775&z=10">
       				Место проведения лагеря — Яндекс Карты
       			</a>
       			<iframe
       			    className="map"
 				title="Карта"
+				rel="noreferrer"
       				src="https://yandex.ru/map-widget/v1/-/CCUDETDrdD"
 
       				// frameborder="0"
