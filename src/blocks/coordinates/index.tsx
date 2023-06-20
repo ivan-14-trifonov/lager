@@ -30,10 +30,8 @@ export const Coordinates = () => {
       			</a>
       			<iframe
       			    className="map"
+				title="Карта"
       				src="https://yandex.ru/map-widget/v1/-/CCUDETDrdD"
-
-      				// https://yandex.ru/map-widget/v1/-/CCUnQYgl8D
-      				// https://yandex.ru/maps/-/CCUDETDrdD
 
       				// frameborder="0"
       				// allowfullscreen="true"
