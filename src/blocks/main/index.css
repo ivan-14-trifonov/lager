@@ -1,0 +1,115 @@
+.main {
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  height: 100vh;
+}
+
+.main__content {
+  width: 950px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main__background {
+  width: 100%;
+  height: 100vh;
+
+  background:
+    linear-gradient(0deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)),
+    no-repeat center url(./images/main.jpg);
+  background-size: cover;
+
+  filter: blur(15px);
+
+  position: absolute;
+  z-index: -2;
+}
+
+.main__title {
+  font-family: Transgender Grotesque;
+  font-size: 6.6rem;
+  line-height: 115px;
+
+  flex: 2;
+
+  display: flex;
+  align-items: center;
+}
+
+.main__text {
+  font-size: 4rem;
+  margin-top: 32px;
+  font-style: italic;
+}
+
+.main__info {
+  flex: 1;
+}
+
+.main__border {
+  display: inline-block;
+
+  margin-top: 32px;
+  padding: 13px 29px;
+  
+  font-size: 4rem;
+
+  border: 3px solid #000000;
+  border-radius: 100px;
+
+  margin-right: 10px;
+}
+
+
+.main__circle {
+  width: 100vh;
+  height: 100vh;
+
+  background: radial-gradient(50% 50% at 50% 50%, #c4cbff 31.25%, rgba(255, 255, 255, 0.42) 100%);
+  filter: blur(25px);
+
+  position: absolute;
+  z-index: -1;
+  left: -50vh
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    width: 100vw;
+  }
+
+  .main__content {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .main__title {
+    font-size: 4rem;
+    line-height: 74px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main__content > * {
+    padding: 0 15px;
+  }
+
+  .main__circle {
+    width: 100vw;
+    height: 100vw;
+    transform: translateY(25vh);
+    left: -50vw;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .main {
+    min-height: 600px;
+  }
+}

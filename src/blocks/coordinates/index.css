@@ -1,0 +1,66 @@
+.dates,
+.place {
+  width: 700px;
+  margin: auto;
+  font-size: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+
+.dates > *,
+.place > * {
+	text-align: center;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.map {
+	position:relative;
+  width: 100vw;
+  height: 75vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .dates,
+  .place {
+    width: 100%;
+  }
+
+  .dates > *,
+  .place > * {
+    padding: 0 15px;
+  }
+}
+
+.regPage {
+  font-size: 2rem;
+}
+
+
+
+
+
+.map1 {
+	position: relative;
+	overflow: hidden;
+}
+
+.map2 {
+	color: #eee;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+}
+
+.map3 {
+	color: #eee;
+	font-size: 12px;
+	position: absolute;
+	top:14px;
+}

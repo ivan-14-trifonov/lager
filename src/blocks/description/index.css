@@ -1,0 +1,106 @@
+.description {
+  width: 950px;
+  margin: auto;
+  font-size: 3rem;
+
+  display: flex;
+  flex-direction: column;
+
+/*  margin-bottom: 40px;*/
+
+/*  height: 100vh;*/
+}
+
+.description__title {
+  font-family: Transgender Grotesque;
+  font-size: 5rem;
+  margin-top: 5rem;
+}
+
+.description__text > *,
+.description__li {
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.description__chapter,
+.description__title {
+  display: flex;
+  justify-content: center;
+}
+
+.description__chapter > *,
+.description__title > * {
+  text-align: center;
+}
+
+.description__chapter {
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+
+.description__li {
+/*  list-style-position: inside;*/
+  
+  list-style-type: none; /* Убираем маркеры у списка */
+}
+
+.description__li:before {
+  content: "✔ "; /* Добавляем в качестве маркера символ */
+  color: LimeGreen;
+}
+
+.description__price {
+  color: LimeGreen;
+}
+
+.description__announce {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__Bible_Quote {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.description__Biblical_Reference,
+.description__Bible_Quote {
+  margin: auto;
+  margin-right: 0;
+}
+
+.description__Bible_Quote > *,
+.description__Biblical_Reference > * {
+  text-align: right;
+}
+
+.description__Biblical_Reference {
+  font-size: 4rem;
+/*  margin-bottom: 2rem;*/
+
+  font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    width: 100%;
+  }
+
+  .description > * {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .description {
+    min-height: 600px;
+  }
+}
+
+.description__price {
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

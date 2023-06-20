@@ -1,0 +1,39 @@
+.registration {
+/*  width: 700px;
+  margin: auto;*/
+  font-size: 3rem;
+
+  display: flex;
+  flex-direction: column;
+
+/*  margin-bottom: 40px;*/
+
+/*  height: 100vh;*/
+}
+
+.registration__button {
+  flex: 1;
+
+  font-family: Transgender Grotesque;
+  text-align: center;
+
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.registration__button-text {
+  border: 3px solid #000000;
+  border-radius: 100px;
+
+  padding: 13px 29px;
+}
+
+@media screen and (max-width: 1024px) {
+  .registration {
+    width: 100%;
+  }
+
+  .registration > * {
+    padding: 0 15px;
+  }
+}
