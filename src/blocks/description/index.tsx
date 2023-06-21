@@ -44,10 +44,10 @@ export const Description = () => {
 						</ul>
 					</div>
 					<div className="description__text">
-						<p><b>Ответственный за лагерь: Шкаровский Георгий, <span className="nowrap">+7 920 275 1508.</span></b></p>
+						<p><b>Ответственный за лагерь: Шкаровский Георгий, <span className="nowrap">+7 920 275 15 08.</span></b></p>
 					</div>
 					<div className="description__price">
-						<p><b>С собой необходимо привезти 2300 ₽.</b></p>
+						<p><b>С собой необходимо привезти <span className="nowrap">2300 ₽.</span></b></p>
 					</div>
 				</div>
 			</section>
