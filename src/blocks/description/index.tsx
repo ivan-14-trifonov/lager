@@ -40,11 +40,11 @@ export const Description = () => {
 						<p>В наших общениях будут принимать участие:</p>
 						<ul>
 							<li className="description__li">служители наших церквей Тульской и Калужской областей,</li>
-							<li className="description__li">а также братья гости: Сергей Зинченко и Михаил Голубин.</li>
+							<li className="description__li">а также братья гости: <span className="nowrap">Сергей Зинченко</span> и <span className="nowrap">Михаил Голубин</span>.</li>
 						</ul>
 					</div>
 					<div className="description__text">
-						<p><b>Ответственный за лагерь: Шкаровский Георгий, <span className="phone">+7 920 275 1508.</span></b></p>
+						<p><b>Ответственный за лагерь: Шкаровский Георгий, <span className="nowrap">+7 920 275 1508.</span></b></p>
 					</div>
 					<div className="description__price">
 						<p><b>С собой необходимо привезти 2300 ₽.</b></p>
