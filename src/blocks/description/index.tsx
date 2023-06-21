@@ -44,7 +44,7 @@ export const Description = () => {
 						</ul>
 					</div>
 					<div className="description__text">
-						<p><b>Ответственный за лагерь: Шкаровский Георгий, +7 920 275 1508.</b></p>
+						<p><b>Ответственный за лагерь: Шкаровский Георгий, <span className="phone">+7 920 275 1508.</span></b></p>
 					</div>
 					<div className="description__price">
 						<p><b>С собой необходимо привезти 2300 ₽.</b></p>
