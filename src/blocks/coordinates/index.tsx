@@ -6,8 +6,8 @@ export const Coordinates = () => {
 		<div className="coordinates">
 			<div className="dates">
 				<h2 className="text">🗓 Даты проведения лагеря</h2>
-				<p className="text">29.06.2023 18:00 – заезд</p>
-				<p className="text">03.07.2023 11:00 – выезд</p>
+				<p className="text">04.07.2024 18:00 – заезд</p>
+				<p className="text">08.07.2024 11:00 – выезд</p>
 			</div>
 
 			<div className="place">
