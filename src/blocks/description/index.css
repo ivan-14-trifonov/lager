@@ -52,6 +52,7 @@
 
 .description__img_container {
   display: flex;
+  justify-content: space-around;
 }
 
 .description__photo {
