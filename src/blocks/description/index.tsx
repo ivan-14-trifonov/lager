@@ -40,6 +40,10 @@ export const Description = () => {
 							<li className="description__li">служители наших церквей Тульской и Калужской областей,</li>
 							<li className="description__li">а также братья гости: <span className="nowrap">Марк Хорев</span> и <span className="nowrap">Павел Мещерин</span>.</li>
 						</ul>
+						<div className="description__img_container">
+							<img className="description__photo" src={require('./images/1.png')}/>
+						    <img className="description__photo" src={require('./images/2.png')}/>
+						</div>
 					</div>
 					<div className="description__text">
 						<p><b>Ответственный за лагерь: Шкаровский Георгий, <span className="nowrap">+7 920 275 15 08.</span></b></p>

@@ -50,6 +50,14 @@
   color: LimeGreen;
 }
 
+.description__img_container {
+  display: flex;
+}
+
+.description__photo {
+  width: 40%;
+}
+
 .description__price {
   color: LimeGreen;
 }
