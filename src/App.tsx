@@ -6,6 +6,7 @@ import {Registration} from './blocks/registration';
 import {Coordinates} from './blocks/coordinates';
 
 function App() {
+  document.title = "Молодёжный лагерь";
   return (
     <div className="App">
       <Main />
