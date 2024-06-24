@@ -41,8 +41,8 @@ export const Description = () => {
 							<li className="description__li">а также братья гости: <span className="nowrap">Марк Хорев</span> и <span className="nowrap">Павел Мещерин</span>.</li>
 						</ul>
 						<div className="description__img_container">
-							<img className="description__photo" src={require('./images/1.png')} alt="фото 1"/>
-						    <img className="description__photo" src={require('./images/2.png')} alt="фото 2"/>
+							<img className="description__photo" src={require('./images/1.jpg')} alt="фото 1"/>
+						    <img className="description__photo" src={require('./images/2.jpg')} alt="фото 2"/>
 						</div>
 					</div>
 					<div className="description__text">
